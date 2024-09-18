@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest: Python Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>CodeQuest: Python Adventures</h1>
+        
+        <div id="narrative">
+            <p>Welcome to CodeQuest! Your first task is to help the village by assigning values to variables.</p>
+        </div>
+
+        <div id="task">
+            <p><strong>Task:</strong> Assign a value to the variable <code>gold</code>.</p>
+        </div>
+
+        <textarea id="code-input" rows="10" placeholder="Type your Python code here..."></textarea>
+        <button onclick="submitCode()">Run Code</button>
+
+        <div id="output">
+            <p><strong>Output:</strong></p>
+            <pre id="code-output"></pre>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
